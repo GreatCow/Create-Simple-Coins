@@ -1,0 +1,21 @@
+{
+  "item.create_simple_coins.copper_coin": "Copper Coin",
+  "item.create_simple_coins.iron_coin": "Iron Coin",
+  "item.create_simple_coins.gold_coin": "Gold Coin",
+  "item.create_simple_coins.diamond_coin": "Diamond Coin",
+  "item.create_simple_coins.netherite_coin": "Netherite Coin",
+
+  "item.create_simple_coins.incomplete_copper_coin": "Incomplete Copper Coin",
+  "item.create_simple_coins.incomplete_iron_coin": "Incomplete Iron Coin",
+  "item.create_simple_coins.incomplete_gold_coin": "Incomplete Gold Coin",
+  "item.create_simple_coins.incomplete_diamond_coin": "Incomplete Diamond Coin",
+  "item.create_simple_coins.incomplete_netherite_coin": "Incomplete Netherite Coin",
+
+  "item.create_simple_coins.defective_copper_coin": "Defective Copper Coin",
+  "item.create_simple_coins.defective_iron_coin": "Defective Iron Coin",
+  "item.create_simple_coins.defective_gold_coin": "Defective Gold Coin",
+  "item.create_simple_coins.defective_diamond_coin": "Defective Diamond Coin",
+  "item.create_simple_coins.defective_netherite_coin": "Defective Netherite Coin",
+
+  "creativetab.create_simple_coins_tab": "Create: Simple Coins"
+}
