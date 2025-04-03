@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:golden_sheet"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 320,
+      "item": "create_simple_coins:gold_coin"
+    },
+    {
+      "chance": 2,
+      "item": "create_simple_coins:defective_gold_coin"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_gold_coin"
+        },
+        {
+          "tag": "forge:nuggets/iron"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_gold_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_gold_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_gold_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_gold_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_gold_coin"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_simple_coins:incomplete_gold_coin"
+  }
+}

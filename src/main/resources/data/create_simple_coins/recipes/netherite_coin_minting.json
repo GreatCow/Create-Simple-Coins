@@ -1,0 +1,98 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:netherite_scrap"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 420,
+      "item": "create_simple_coins:netherite_coin"
+    },
+    {
+      "chance": 1,
+      "item": "create_simple_coins:defective_netherite_coin"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        },
+        {
+          "tag": "forge:nuggets/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ]
+    },
+
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ]
+    },
+
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        },
+        {
+          "tag": "forge:ingots/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ]
+    },
+
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ]
+    },
+
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_netherite_coin"
+        }
+      ]
+    }
+
+  ],
+  "transitionalItem": {
+    "item": "create_simple_coins:incomplete_netherite_coin"
+  }
+}

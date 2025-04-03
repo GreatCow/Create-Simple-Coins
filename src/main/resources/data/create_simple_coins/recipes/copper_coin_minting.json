@@ -1,0 +1,64 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:zinc_ingot"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 320,
+      "item": "create_simple_coins:copper_coin"
+    },
+    {
+      "chance": 2,
+      "item": "create_simple_coins:defective_copper_coin"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_copper_coin"
+        },
+        {
+          "tag": "forge:nuggets/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_copper_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_copper_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_copper_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_copper_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_copper_coin"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_simple_coins:incomplete_copper_coin"
+  }
+}

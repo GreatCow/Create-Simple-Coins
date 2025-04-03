@@ -1,0 +1,51 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_simple_coins:gold_coin"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 418,
+      "item": "create_simple_coins:diamond_coin"
+    },
+    {
+      "chance": 2,
+      "item": "create_simple_coins:defective_diamond_coin"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_diamond_coin"
+        },
+        {
+          "item": "minecraft:diamond"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_diamond_coin"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create_simple_coins:incomplete_diamond_coin"
+        }
+      ],
+      "results": [
+        {
+          "item": "create_simple_coins:incomplete_diamond_coin"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "create_simple_coins:incomplete_diamond_coin"
+  }
+}
