@@ -11,6 +11,9 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Create_Simple_Coins.MOD_ID);
 
+    public static final RegistryObject<Item> MEGA_COIN = ITEMS.register("mega_coin",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> COPPER_COIN = ITEMS.register("copper_coin",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> IRON_COIN = ITEMS.register("iron_coin",

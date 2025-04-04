@@ -14,7 +14,7 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Create_Simple_Coins.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> CREATE_SIMPLE_COINS_TAB = CREATIVE_MODE_TABS.register("create_simple_coins_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOLD_COIN.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MEGA_COIN.get()))
                     .title(Component.translatable("creativetab.create_simple_coins_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.COPPER_COIN.get());
